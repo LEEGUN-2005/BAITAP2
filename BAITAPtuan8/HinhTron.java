@@ -1,6 +1,7 @@
-class tron extends hinhhoc {
+class HinhTron extends HinhHoc {
     protected float banKinh;
-    public hinhtron(float banKinh) {
+
+    public HinhTron(float banKinh) {
         this.ten = "Hinh tron";
         this.banKinh = banKinh;
         tinhChuVi();
@@ -20,7 +21,7 @@ class tron extends hinhhoc {
     }
     @Override
     void inTheTich() {
-        System.out.println("The tich hinhtru : " + theTich);
+        System.out.println("The tich : " + theTich);
     }
     protected void tinhChuVi() {
         this.chuVi = 2 * PI * banKinh;
